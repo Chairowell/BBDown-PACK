@@ -35,7 +35,7 @@ Options:
   -intl, --use-intl-api                          使用国际版解析模式
   --use-mp4box                                   使用MP4Box来混流
   --encoding-priority <encoding-priority>        视频编码的选择优先级,用逗号分割 例:"hevc,av1,avc"
-  --dfn-priority <dfn-priority>                  画质优先级,用逗号分隔 例:"8K 超高清, 1080P 高码率, HDR 真彩, 杜比视界"
+  --dfn-priority <dfn-priority>         画质优先级,用逗号分隔 例:"8K 超高清, 1080P 高码率, HDR 真彩, 杜比视界"
   -info, --only-show-info                        仅解析而不进行下载
   -hs, --hide-streams                            不要显示所有可用音视频流
   -ia, --interactive                             交互式选择清晰度
