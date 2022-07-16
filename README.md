@@ -2,7 +2,7 @@
 BBDown-PACK是 [BBDown (Bilibili Downloader)](https://github.com/nilaoda/BBDown) 的打包版本
 ##### >[如果急需最新版请前往](https://github.com/nilaoda/BBDown/releases)<
 #### BBDown-PACK尽量会同步更新至最新
-[![img](https://img.shields.io/github/release/Chairowell/BBDown-PACK?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/nilaoda/BBDown/releases) [![img](https://img.shields.io/github/last-commit/Chairowell/BBDown-PACK?label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/nilaoda/BBDown) [![img](https://img.shields.io/github/license/Chairowell/BBDown-PACK?label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/nilaoda/BBDown) 
+[![img](https://img.shields.io/github/last-commit/Chairowell/BBDown-PACK?label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/nilaoda/BBDown) [![img](https://img.shields.io/github/license/Chairowell/BBDown-PACK?label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/nilaoda/BBDown) 
 
 # 下载
 Release版本：https://github.com/Chairowell/BBDown-PACK/releases
