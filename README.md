@@ -10,7 +10,7 @@ Release版本：https://github.com/Chairowell/BBDown-PACK/releases
 [![img](https://img.shields.io/github/release/Chairowell/BBDown-PACK?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/nilaoda/BBDown/releases)
 
 # 快速开始
-* 携带版 Portable version (已经打包好了ffmpeg、mp4box、aria2c、BBDown)
+##### 携带版 Portable version (已经打包好了ffmpeg、mp4box、aria2c、BBDown)
 ##### 1. 把BBDown.exe托到cmd.exe文件上（出现 "用Windows Command Processor[cmd]打开" 即可）
 ##### 2. 输入BBDown以查看调用参数
 
