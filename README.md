@@ -1,23 +1,26 @@
 # BBDown-PACK
-BBDown-PACK是 [BBDown (Bilibili Downloader)](https://github.com/nilaoda/BBDown) 的打包版本，包含BBDown.exe ffmpeg.exe mp4box.exe aira2c.exe
+BBDown-PACK是 [BBDown (Bilibili Downloader)](https://github.com/nilaoda/BBDown) 的打包版本
 ##### >[如果急需最新版请前往](https://github.com/nilaoda/BBDown/releases)<
 #### BBDown-PACK尽量会同步更新至最新
 [![img](https://img.shields.io/github/release/Chairowell/BBDown-PACK?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/nilaoda/BBDown/releases) [![img](https://img.shields.io/github/last-commit/Chairowell/BBDown-PACK?label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/nilaoda/BBDown) [![img](https://img.shields.io/github/license/Chairowell/BBDown-PACK?label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/nilaoda/BBDown) 
 
-# 快速开始
-* [携带版]()
-# !!注意
-本软件混流时需要外部程序：
-
-* 普通视频：[ffmpeg](https://www.gyan.dev/ffmpeg/builds/) ，或 [mp4box](https://gpac.wp.imt.fr/downloads/)
-* 杜比视界：ffmpeg5.0以上或新版mp4box.
-
-
-
 # 下载
-Release版本：https://github.com/nilaoda/BBDown/releases
+Release版本：https://github.com/Chairowell/BBDown-PACK/releases
 
-自动构建的测试版本：https://github.com/nilaoda/BBDown/actions
+[![img](https://img.shields.io/github/release/Chairowell/BBDown-PACK?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/nilaoda/BBDown/releases)
+
+# 快速开始
+* 携带版 Portable version (已经打包好了ffmpeg、mp4box、aria2c、BBDown)
+##### 1. 把BBDown.exe托到cmd.exe文件上（出现 "用Windows Command Processor[cmd]打开" 即可）
+##### 2. 输入BBDown以查看调用参数
+
+* 普通视频下载：[ffmpeg](https://www.gyan.dev/ffmpeg/builds/) 或 [mp4box](https://gpac.wp.imt.fr/downloads/)
+* 杜比视界下载：ffmpeg5.0及以上或新版mp4box.
+
+
+
+
+
 
 # 开始使用
 目前命令行参数支持情况
@@ -63,29 +66,29 @@ Options:
   --mp4box-path <mp4box-path>                    设置mp4box的路径
   --aria2c-path <aria2c-path>                    设置aria2c的路径
   --delay-per-page <delay-per-page>              设置下载合集分P之间的下载间隔时间(单位: 秒, 默认无间隔)
+  
   -F, --file-pattern <file-pattern>              使用内置变量自定义单P存储文件名:
-
-                                                 <videoTitle>: 视频主标题
-                                                 <pageNumber>: 视频分P序号
-                                                 <pageNumberWithZero>: 视频分P序号(前缀补零)
-                                                 <pageTitle>: 视频分P标题
-                                                 <aid>: 视频aid
-                                                 <cid>: 视频cid
-                                                 <dfn>: 视频清晰度
-                                                 <res>: 视频分辨率
-                                                 <fps>: 视频帧率
-                                                 <videoCodecs>: 视频编码
-                                                 <videoBandwidth>: 视频码率
-                                                 <audioCodecs>: 音频编码
-                                                 <audioBandwidth>: 音频码率
-                                                 <ownerName>: 上传者名称
-                                                 <ownerMid>: 上传者mid
-
-                                                 默认为: <videoTitle>
+  
+              默认为: <videoTitle>
+                     <videoTitle>: 视频主标题
+                     <pageNumber>: 视频分P序号
+                     <pageNumberWithZero>: 视频分P序号(前缀补零)
+                     <pageTitle>: 视频分P标题
+                     <aid>: 视频aid
+                     <cid>: 视频cid
+                     <dfn>: 视频清晰度
+                     <res>: 视频分辨率
+                     <fps>: 视频帧率
+                     <videoCodecs>: 视频编码
+                     <videoBandwidth>: 视频码率
+                     <audioCodecs>: 音频编码
+                     <audioBandwidth>: 音频码率
+                     <ownerName>: 上传者名称
+                     <ownerMid>: 上传者mid
 
   -M, --multi-file-pattern <multi-file-pattern>  使用内置变量自定义多P存储文件名:
 
-                                                 默认为: <videoTitle>/[P<pageNumberWithZero>]<pageTitle>
+                   默认为: <videoTitle>/[P<pageNumberWithZero>]<pageTitle>
 
   --config-file <config-file>                    读取指定的BBDown本地配置文件(默认为: BBDown.config)
   --version                                      Show version information
@@ -267,10 +270,6 @@ BBDown -p ALL "https://www.bilibili.com/bangumi/play/ss33073"
 
 # 演示
 ![1](https://user-images.githubusercontent.com/20772925/88686407-a2001480-d129-11ea-8aac-97a0c71af115.gif)
-
-下载完毕后在当前目录查看MP4文件：
-
-![2](https://user-images.githubusercontent.com/20772925/88478901-5e1cdc00-cf7e-11ea-97c1-154b9226564e.png)
 
 # 致谢
 
