@@ -14,17 +14,8 @@ Release版本：https://github.com/Chairowell/BBDown-PACK/releases
 ##### 1. 把BBDown.exe托到cmd.exe文件上（出现 "用Windows Command Processor[cmd]打开" 即可）
 ##### 2. 输入BBDown以查看调用参数
 
-* 普通视频下载：[ffmpeg](https://www.gyan.dev/ffmpeg/builds/) 或 [mp4box](https://gpac.wp.imt.fr/downloads/)
-* 杜比视界下载：ffmpeg5.0及以上或新版mp4box.
-
-
-
-
-
-
-
-
-
+###### 普通视频下载：[ffmpeg](https://www.gyan.dev/ffmpeg/builds/) 或 [mp4box](https://gpac.wp.imt.fr/downloads/)
+###### 杜比视界下载：ffmpeg5.0及以上或新版mp4box
 
 # 开始使用
 目前命令行参数支持情况
