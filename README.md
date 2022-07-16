@@ -269,7 +269,7 @@ BBDown -p ALL "https://www.bilibili.com/bangumi/play/ss33073"
 </details>
 
 # 演示
-![1](https://user-images.githubusercontent.com/20772925/88686407-a2001480-d129-11ea-8aac-97a0c71af115.gif)
+![1](https://github.com/Chairowell/BBDown-PACK/blob/master/%E6%BC%94%E7%A4%BA.gif?raw=true)
 
 # 致谢
 
