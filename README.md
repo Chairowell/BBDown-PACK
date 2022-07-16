@@ -22,6 +22,10 @@ Release版本：https://github.com/Chairowell/BBDown-PACK/releases
 
 
 
+
+
+
+
 # 开始使用
 目前命令行参数支持情况
 ```
@@ -269,7 +273,7 @@ BBDown -p ALL "https://www.bilibili.com/bangumi/play/ss33073"
 </details>
 
 # 演示
-![演示](https://user-images.githubusercontent.com/64683147/179350906-97c269fe-5931-496e-9f5a-cb97ab6caa1b.gif)
+<video src="https://user-images.githubusercontent.com/64683147/179350999-cfb43ed2-d6a2-4f88-a4f1-387ad682f840.mp4" loop></video>
 
 # 致谢
 
